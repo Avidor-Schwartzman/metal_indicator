@@ -25,7 +25,7 @@ if band_name in metal_bands_title:
 else:
     print("false")    
 # if the band isnt written in the direcory write: Don`t know
-if (band_name in metal_bands_lowercase) or (band_name in metal_bands_uppercase) or (band_name in metal_bands_title)
+if (band_name in metal_bands_lowercase) or (band_name in metal_bands_uppercase) or (band_name in metal_bands_title):
     print ("true")
 else: 
     print ("don`t know")
